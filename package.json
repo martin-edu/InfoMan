@@ -1,0 +1,31 @@
+{
+  "name": "InfoMan",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "botkit-middleware-watson": "^1.7.1",
+    "cfenv": "^1.0.4",
+    "dotenv": "^4.0.0",
+    "excel": "^0.1.7",
+    "express": "^4.13.4",
+    "promise": "^8.0.0",
+    "should": "^8.3.1",
+    "should-http": "0.0.4",
+    "supertest": "^1.2.0",
+    "watson-developer-cloud": "^3.0.7"
+  },
+  "scripts": {
+    "test": "mocha -- test/**/*.js",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.10.3",
+    "npm": "3.10.10"
+  },
+  "author": "CUCEI",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.4"
+  }
+}
