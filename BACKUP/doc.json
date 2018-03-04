@@ -1,0 +1,4127 @@
+{
+	"name": "definitivo",
+	"intents": [
+		{
+			"intent": "fecha_final",
+			"examples": [
+				{
+					"text": "acaba"
+				},
+				{
+					"text": "cierra"
+				},
+				{
+					"text": "concluye"
+				},
+				{
+					"text": "consuma"
+				},
+				{
+					"text": "consumación"
+				},
+				{
+					"text": "fin"
+				},
+				{
+					"text": "finaliza"
+				},
+				{
+					"text": "finalización"
+				},
+				{
+					"text": "muere"
+				},
+				{
+					"text": "se acaba"
+				},
+				{
+					"text": "se termina"
+				},
+				{
+					"text": "terminación"
+				}
+			],
+			"description": "Detectar cuando el usuario desea información acerca del final de algo relacionado con su carrera"
+		},
+		{
+			"intent": "ss-registro-reporteBimestral",
+			"examples": [
+				{
+					"text": "donde genero mi reporte bimestral"
+				},
+				{
+					"text": "como se hace el reporte bimestral"
+				},
+				{
+					"text": "quiero hacer mi reporte bimestral"
+				},
+				{
+					"text": "donde se hace el reporte bimestral"
+				},
+				{
+					"text": "como lleno mi reporte bimestral"
+				},
+				{
+					"text": "como llenar reporte bimestral"
+				},
+				{
+					"text": "como hacer reporte bimestral"
+				},
+				{
+					"text": "hacer reporte bimestral"
+				},
+				{
+					"text": "donde se hacen los reportes bimestral"
+				},
+				{
+					"text": "como hago el reporte bimestral"
+				},
+				{
+					"text": "como hago mi reporte bimestral"
+				},
+				{
+					"text": "como hacer reporte bimestral servicio social"
+				},
+				{
+					"text": "elaboracion reporte bimestral"
+				}
+			],
+			"description": ""
+		},
+		{
+			"intent": "pm-estado-del-arte",
+			"examples": [
+				{
+					"text": "que debe contener el estado del arte del"
+				},
+				{
+					"text": "que debe contener el estado del arte de mi"
+				},
+				{
+					"text": "que tengo que documentar en el"
+				},
+				{
+					"text": "que tengo que documentar en los"
+				},
+				{
+					"text": "que documentacion tengo que hacer para aprobar mi"
+				},
+				{
+					"text": "que documentacion tengo que hacer para aprobar el"
+				},
+				{
+					"text": "que tipo de documentacion requieren los"
+				},
+				{
+					"text": "que tipo de documentacion requiere el"
+				},
+				{
+					"text": "que debo documentar en el"
+				},
+				{
+					"text": "que debo documentar en mi"
+				},
+				{
+					"text": "que documentacion necesita el"
+				},
+				{
+					"text": "que documentacion necesita mi"
+				},
+				{
+					"text": "que documentacion debo hacer para aprobar el"
+				},
+				{
+					"text": "que documentacion debo hacer para aprobar mi"
+				},
+				{
+					"text": "que documentacion debo hacer en el"
+				},
+				{
+					"text": "que documentacion debo hacer en mi"
+				},
+				{
+					"text": "que documentacion requiere la"
+				},
+				{
+					"text": "que documentacion requiere el"
+				},
+				{
+					"text": "que documentacion requiere mi"
+				},
+				{
+					"text": "que necesito para el estado del arte del"
+				},
+				{
+					"text": "que necesito para el estado del arte de mi"
+				},
+				{
+					"text": "que necesito para hacer el estado del arte del"
+				},
+				{
+					"text": "que necesito para hacer el estado del arte de mi"
+				},
+				{
+					"text": "como hago el estado del arte del"
+				},
+				{
+					"text": "como hago el estado del arte de mi"
+				},
+				{
+					"text": "como genero el estado del arte del"
+				},
+				{
+					"text": "como genero el estado del arte de mi"
+				},
+				{
+					"text": "que es el estado del arte de la"
+				},
+				{
+					"text": "que es el estado del arte de el"
+				},
+				{
+					"text": "que es el estado del arte de un"
+				},
+				{
+					"text": "que significa estado del arte del"
+				},
+				{
+					"text": "que significa estado del arte de un"
+				}
+			],
+			"description": ""
+		},
+		{
+			"intent": "conocimiento-del-bot",
+			"examples": [
+				{
+					"text": "qué temas conoces"
+				},
+				{
+					"text": "qué sabes de la carrera"
+				},
+				{
+					"text": "qué sabes de informática"
+				},
+				{
+					"text": "qué me puedes explicar"
+				},
+				{
+					"text": "qué me puedes enseñar"
+				},
+				{
+					"text": "que puedes responder"
+				},
+				{
+					"text": "me puedes decir que sabes"
+				},
+				{
+					"text": "de que temas sabes"
+				},
+				{
+					"text": "de que me puedes hablar"
+				},
+				{
+					"text": "cuáles temas conoces"
+				},
+				{
+					"text": "cuáles son tus temas de dominio"
+				},
+				{
+					"text": "cuáles son tus áreas de dominio"
+				},
+				{
+					"text": "cuál es tu entrenamiento"
+				},
+				{
+					"text": "de que información me puedes hablar"
+				}
+			],
+			"description": ""
+		},
+		{
+			"intent": "all-reglamento",
+			"examples": [
+				{
+					"text": "Quiero conocer las reglas del"
+				},
+				{
+					"text": "Quiero conocer las reglas de las"
+				},
+				{
+					"text": "Quiero conocer las reglas de los"
+				},
+				{
+					"text": "me podrias decir las reglas del"
+				},
+				{
+					"text": "me podrias decir las reglas de las"
+				},
+				{
+					"text": "me podrias decir las reglas de los"
+				},
+				{
+					"text": "existen reglas para la"
+				},
+				{
+					"text": "existen reglas para el"
+				},
+				{
+					"text": "existen reglas para los"
+				},
+				{
+					"text": "existen reglas en el"
+				},
+				{
+					"text": "existen reglas en las"
+				},
+				{
+					"text": "existen reglas en los"
+				},
+				{
+					"text": "cúales son las reglas del"
+				},
+				{
+					"text": "cúales son las reglas de las"
+				},
+				{
+					"text": "cúales son las reglas de los"
+				},
+				{
+					"text": "cúal es el reglamento del"
+				},
+				{
+					"text": "cúal es el reglamento de las"
+				},
+				{
+					"text": "cúal es el reglamento de los"
+				},
+				{
+					"text": "cuales son las reglas del"
+				},
+				{
+					"text": "cuales son las reglas de las"
+				},
+				{
+					"text": "cuales son las reglas de los"
+				},
+				{
+					"text": "Dime cuales son las reglas de"
+				}
+			],
+			"description": "delete if nobody else uses it!"
+		},
+		{
+			"intent": "pm-formato-registro",
+			"examples": [
+				{
+					"text": "donde obtengo el formato de registro despues de registrar mi"
+				},
+				{
+					"text": "donde obtengo el formato de registro despues de registrar el"
+				},
+				{
+					"text": "recibire alguna confirmación despues de registrar mi"
+				},
+				{
+					"text": "recibire alguna confirmación despues de registrar el"
+				},
+				{
+					"text": "que debo hacer despúes de registrar mi"
+				},
+				{
+					"text": "que debo hacer despúes de registrar el"
+				},
+				{
+					"text": "que es el formato de registro en los"
+				},
+				{
+					"text": "que es el formato de registro de los"
+				},
+				{
+					"text": "que es el formato de registro en mi"
+				},
+				{
+					"text": "que es el formato de registro de mi"
+				},
+				{
+					"text": "que es el formato de registro de"
+				},
+				{
+					"text": "que debo hacer despues de registrar mi"
+				},
+				{
+					"text": "que debo hacer despues de registrar el"
+				}
+			],
+			"description": ""
+		},
+		{
+			"intent": "ss-reporteFinal",
+			"examples": [],
+			"description": ""
+		},
+		{
+			"intent": "fecha_inicio",
+			"examples": [
+				{
+					"text": "arranca"
+				},
+				{
+					"text": "arranque"
+				},
+				{
+					"text": "comienza"
+				},
+				{
+					"text": "comienzo"
+				},
+				{
+					"text": "cuando iniciamos"
+				},
+				{
+					"text": "cuándo inicia"
+				},
+				{
+					"text": "inicio de clases"
+				},
+				{
+					"text": "inicio de cursos"
+				},
+				{
+					"text": "inicio de semestre"
+				},
+				{
+					"text": "principio"
+				}
+			],
+			"description": "Intent para detectar cuando un usuario habla del inicio"
+		},
+		{
+			"intent": "ss-liberacionServicio",
+			"examples": [
+				{
+					"text": "como libero mi"
+				},
+				{
+					"text": "como liberar el"
+				},
+				{
+					"text": "como liberar"
+				},
+				{
+					"text": "liberación de"
+				},
+				{
+					"text": "liberacion de"
+				},
+				{
+					"text": "liberación"
+				},
+				{
+					"text": "liberacion"
+				},
+				{
+					"text": "deseo liberar mi"
+				},
+				{
+					"text": "como hago la liberacion de"
+				},
+				{
+					"text": "requisitos para liberacion"
+				}
+			],
+			"description": ""
+		},
+		{
+			"intent": "all-registro",
+			"examples": [
+				{
+					"text": "como se registran mis"
+				},
+				{
+					"text": "como se registra mi"
+				},
+				{
+					"text": "como se registra el"
+				},
+				{
+					"text": "como se registran las"
+				},
+				{
+					"text": "como se registran los"
+				},
+				{
+					"text": "como debo registrar las"
+				},
+				{
+					"text": "como debo registrar la"
+				},
+				{
+					"text": "como debo registrar los"
+				},
+				{
+					"text": "como debo registrar el"
+				},
+				{
+					"text": "como registro las"
+				},
+				{
+					"text": "como registro los"
+				},
+				{
+					"text": "como registro la"
+				},
+				{
+					"text": "como registro el"
+				},
+				{
+					"text": "como es el proceso de registro del"
+				},
+				{
+					"text": "como es el proceso de registro de las"
+				},
+				{
+					"text": "como es el proceso de registro de los"
+				},
+				{
+					"text": "donde me registro"
+				},
+				{
+					"text": "donde se hace el registro"
+				},
+				{
+					"text": "en que lugar me registro"
+				},
+				{
+					"text": "donde me puedo registrar"
+				},
+				{
+					"text": "me quiero registrar"
+				},
+				{
+					"text": "quiero hacer mi registro"
+				},
+				{
+					"text": "en donde me registro para mi"
+				},
+				{
+					"text": "donde hago mi registro"
+				}
+			],
+			"description": ""
+		}
+	],
+	"entities": [
+		{
+			"entity": "ciclo",
+			"values": [
+				{
+					"type": "synonyms",
+					"value": "ciclo B",
+					"metadata": null,
+					"synonyms": [
+						"calendario B",
+						"periodo B",
+						"semestre B"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "ciclo A",
+					"metadata": null,
+					"synonyms": [
+						"calendario A",
+						"periodo A",
+						"semestre B"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "ciclo de verano",
+					"metadata": null,
+					"synonyms": [
+						"calendario de verano",
+						"periodo de verano",
+						"verano"
+					]
+				}
+			],
+			"metadata": null,
+			"description": null,
+			"fuzzy_match": false
+		},
+		{
+			"entity": "opciones",
+			"values": [
+				{
+					"type": "synonyms",
+					"value": "no",
+					"metadata": null,
+					"synonyms": [
+						"No",
+						"nel",
+						"neh",
+						"nelson"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "si",
+					"metadata": null,
+					"synonyms": [
+						"Si",
+						"sí",
+						"simón",
+						"yes",
+						"yeah",
+						"ahuevo"
+					]
+				}
+			],
+			"metadata": null,
+			"description": null
+		},
+		{
+			"entity": "areas",
+			"values": [
+				{
+					"type": "synonyms",
+					"value": "Materias Especializantes",
+					"metadata": null,
+					"synonyms": [
+						"materias especializantes",
+						"especializantes"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Prácticas Profesionales",
+					"metadata": null,
+					"synonyms": [
+						"practicas",
+						"prácticas",
+						"prácticas profesionales",
+						"practicas profesionales"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Servicio Social",
+					"metadata": null,
+					"synonyms": [
+						"servicio social",
+						"servicio"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Titulación",
+					"metadata": null,
+					"synonyms": [
+						"egresados",
+						"egresar",
+						"titulación",
+						"titulacion",
+						"graduación",
+						"graduacion"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Malla Curricular",
+					"metadata": null,
+					"synonyms": [
+						"malla curricular",
+						"plan de materias",
+						"materias",
+						"malla"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Fechas de ciclo",
+					"metadata": null,
+					"synonyms": [
+						"fechas de inicio/finalización de ciclo",
+						"Fechas",
+						"fecha",
+						"calendario",
+						"inicio de cursos",
+						"inicio de clases",
+						"fin de clases",
+						"fin de semestre",
+						"inicio",
+						"fin",
+						"calendario oficial"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Materias Optativas",
+					"metadata": null,
+					"synonyms": [
+						"materias optativas",
+						"optativas"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Calendario Oficial",
+					"metadata": null,
+					"synonyms": [
+						"calendario",
+						"calendario oficial"
+					]
+				},
+				{
+					"type": "synonyms",
+					"value": "Proyectos Modulares",
+					"metadata": null,
+					"synonyms": [
+						"proyectos modulares",
+						"modulares",
+						"proyecto modular",
+						"proyectos",
+						"proyecto"
+					]
+				}
+			],
+			"metadata": null,
+			"description": null
+		}
+	],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [
+		{
+			"type": "standard",
+			"title": "pm-3-yes",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_10_1519622095416",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": false
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_14_1519622095416",
+			"previous_sibling": "node_11_1519622095416"
+		},
+		{
+			"type": "standard",
+			"title": "pm-3-no",
+			"output": {},
+			"parent": "node_10_1519622095416",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:no || $question",
+			"description": null,
+			"dialog_node": "node_11_1519622095416",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"El formato de Registro de Proyectos Modulares es un documento en formato PDF que contiene un resumen de la información porporcionada por el alumno al registrar el Proyecto Modular. Este formato llegará al correo del lider de equipo a más tardar 24hrs después de haberlo registrado. En caso de que este correo no llegue comuniquese lo más pronto posible a la coordinación de informática."
+					]
+				}
+			},
+			"parent": "node_3_1519621398302",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_5_1519621398302",
+			"previous_sibling": "node_4_1519621398302"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"El formato de Registro de Proyectos Modulares es un documento en formato PDF que contiene un resumen de la información porporcionada por el alumno al registrar el Proyecto Modular. Este formato llegará al correo del lider de equipo a más tardar 24hrs después de haberlo registrado. En caso de que este correo no llegue comuniquese lo más pronto posible a la coordinación de informática."
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_3_1519621398302",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_4_1519621398302",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_57_1519619575416",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_59_1519619575416",
+			"previous_sibling": "node_58_1519619575416"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_57_1519619575416",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_60_1519619575416",
+			"previous_sibling": "node_59_1519619575416"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_57_1519619575416",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_58_1519619575416",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-2-yes",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_2_1519621398302",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": false
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_6_1519621398302",
+			"previous_sibling": "node_3_1519621398302"
+		},
+		{
+			"type": "standard",
+			"title": "pm-2-no",
+			"output": {},
+			"parent": "node_2_1519621398302",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:no || $question",
+			"description": null,
+			"dialog_node": "node_3_1519621398302",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_45_1519619534137",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_48_1519619534137",
+			"previous_sibling": "node_47_1519619534137"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_45_1519619534137",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_47_1519619534137",
+			"previous_sibling": "node_46_1519619534137"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_45_1519619534137",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_46_1519619534137",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-12-resultadosSiiau",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_57_1519619575416"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_55_1519619575415",
+			"previous_sibling": "node_49_1519619557566"
+		},
+		{
+			"type": "standard",
+			"title": "pm-7-requisitos",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_27_1519619462459"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_25_1519619462458",
+			"previous_sibling": "node_19_1519619397874"
+		},
+		{
+			"type": "standard",
+			"title": "pm-13-estadoDelArte",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_3_1519530858156"
+			},
+			"conditions": "#estado-del-arte",
+			"description": null,
+			"dialog_node": "node_1_1519530858152",
+			"previous_sibling": "node_55_1519619575415"
+		},
+		{
+			"type": "standard",
+			"title": "pm-3-dictamentRegistro",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_11_1519622095416"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_9_1519622095415",
+			"previous_sibling": "node_1_1519621398296"
+		},
+		{
+			"type": "standard",
+			"title": "pm-14-prototipoFuncional",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_69_1519619631736"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_67_1519619631735",
+			"previous_sibling": "node_1_1519530858152"
+		},
+		{
+			"type": "standard",
+			"title": "pm-9-formatoSolicitudEaluacion",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_39_1519619505475"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_37_1519619505473",
+			"previous_sibling": "node_31_1519619485343"
+		},
+		{
+			"type": "standard",
+			"title": "pm-0-masInformacion",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_75_1519619670202"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_73_1519619670200",
+			"previous_sibling": "node_67_1519619631735"
+		},
+		{
+			"type": "standard",
+			"title": "pm-6-areasParticipacion",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_21_1519619397875"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_19_1519619397874",
+			"previous_sibling": "node_13_1519619383079"
+		},
+		{
+			"type": "standard",
+			"title": "pm-11-acreditacion",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_51_1519619557567"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_49_1519619557566",
+			"previous_sibling": "node_43_1519619534135"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {},
+			"parent": "node_1_1518666227122",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_7_1519502465027",
+			"previous_sibling": "node_1_1519501492171"
+		},
+		{
+			"type": "standard",
+			"title": "pm-10-defensaProyecto",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_45_1519619534137"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_43_1519619534135",
+			"previous_sibling": "node_37_1519619505473"
+		},
+		{
+			"type": "standard",
+			"title": "pm-2-formatoDeRegistro",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_3_1519621398302"
+			},
+			"conditions": "#pm-formato-registro",
+			"description": null,
+			"dialog_node": "node_1_1519621398296",
+			"previous_sibling": "node_10_1518668476738"
+		},
+		{
+			"type": "standard",
+			"title": "pm-8-finalizacion",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_33_1519619485344"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_31_1519619485343",
+			"previous_sibling": "node_25_1519619462458"
+		},
+		{
+			"type": "standard",
+			"title": "pm-4-asesor",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_9_1519619364099"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_7_1519619364099",
+			"previous_sibling": "node_9_1519622095415"
+		},
+		{
+			"type": "standard",
+			"title": "pm-15-preguntasFrecuentes",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_81_1519619694449"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_79_1519619694449",
+			"previous_sibling": "node_73_1519619670200"
+		},
+		{
+			"type": "standard",
+			"title": "pm-5-participantes",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_15_1519619383081"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_13_1519619383079",
+			"previous_sibling": "node_7_1519619364099"
+		},
+		{
+			"type": "standard",
+			"title": "pm-Iniciar recorrido",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_1_1519503716304"
+			},
+			"conditions": "@areas:(Proyectos Modulares)",
+			"description": null,
+			"dialog_node": "node_1_1519501492171",
+			"previous_sibling": "node_79_1519619694449"
+		},
+		{
+			"type": "standard",
+			"title": "pm-1-registro",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1518666227122",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_2_1519515015584"
+			},
+			"conditions": "#all-registro",
+			"description": null,
+			"dialog_node": "node_10_1518668476738",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_75_1519619670202",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_78_1519619670202",
+			"previous_sibling": "node_77_1519619670202"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_75_1519619670202",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_77_1519619670202",
+			"previous_sibling": "node_76_1519619670202"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_75_1519619670202",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_76_1519619670202",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_49_1519619557566",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_51_1519619557567",
+			"previous_sibling": "node_50_1519619557567"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_49_1519619557566",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_51_1519619557567"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_50_1519619557567",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_16_1519922197569",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_8_1519921284270"
+			},
+			"conditions": "#fecha_final",
+			"description": null,
+			"dialog_node": "node_18_1519922302527",
+			"previous_sibling": "node_17_1519922267381"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_16_1519922197569",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_4_1519920642185"
+			},
+			"conditions": "#fecha_inicio",
+			"description": null,
+			"dialog_node": "node_17_1519922267381",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Bien"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_5_1519921108820",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "Bienvenido"
+			},
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_28_1519923279469",
+			"previous_sibling": "node_9_1519921536634"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Bien."
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_5_1519921108820",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_1_1519918628903"
+			},
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_9_1519921536634",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_7_1519612389617",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_9_1519612389619",
+			"previous_sibling": "node_8_1519612389619"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_7_1519612389617",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_8_1519612389619",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_20_1519922461265",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_4_1519920642185"
+			},
+			"conditions": "@ciclo:(ciclo de verano)",
+			"description": null,
+			"dialog_node": "node_23_1519922690831",
+			"previous_sibling": "node_22_1519922612800"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_20_1519922461265",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_3_1519920528911"
+			},
+			"conditions": "@ciclo:(ciclo B)",
+			"description": null,
+			"dialog_node": "node_22_1519922612800",
+			"previous_sibling": "node_21_1519922562574"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_20_1519922461265",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_2_1519920355260"
+			},
+			"conditions": "@ciclo:(ciclo A)",
+			"description": null,
+			"dialog_node": "node_21_1519922562574",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-6-no",
+			"output": {},
+			"parent": "node_19_1519619397874",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_21_1519619397875",
+			"previous_sibling": "node_20_1519619397875"
+		},
+		{
+			"type": "standard",
+			"title": "pm-6-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_19_1519619397874",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_21_1519619397875"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_20_1519619397875",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_2_1519515015584",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_5_1519515015584",
+			"previous_sibling": "node_3_1519515015584"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_2_1519515015584",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_3_1519515015584",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_55_1519619575415",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_57_1519619575416",
+			"previous_sibling": "node_56_1519619575416"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_55_1519619575415",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_57_1519619575416"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_56_1519619575416",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-2-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519621398296",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_2_1519621398302",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_21_1519619397875",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_24_1519619397875",
+			"previous_sibling": "node_23_1519619397875"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_21_1519619397875",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_23_1519619397875",
+			"previous_sibling": "node_22_1519619397875"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_21_1519619397875",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_22_1519619397875",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_81_1519619694449",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_83_1519619694449",
+			"previous_sibling": "node_82_1519619694449"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_81_1519619694449",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_84_1519619694449",
+			"previous_sibling": "node_83_1519619694449"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_81_1519619694449",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_82_1519619694449",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_14_1519622095416",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_16_1519622095416",
+			"previous_sibling": "node_15_1519622095416"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_14_1519622095416",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_15_1519622095416",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_1_1519530858152",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_3_1519530858156",
+			"previous_sibling": "node_2_1519530858156"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya realizaste el Estado del Arte de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519530858152",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_3_1519530858156"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_2_1519530858156",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_3_1519530858156",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_5_1519530858156",
+			"previous_sibling": "node_4_1519530858156"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"La guia para realizar el Estado del Arte es la siguiente: http://www.cucei.udg.mx/carreras/informatica/sites/default/files/adjuntos/guiaproyectomodular.pdf"
+					]
+				}
+			},
+			"parent": "node_3_1519530858156",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_6_1519530858156",
+			"previous_sibling": "node_5_1519530858156"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"La guia para realizar el Estado del Arte es la siguiente: http://www.cucei.udg.mx/carreras/informatica/sites/default/files/adjuntos/guiaproyectomodular.pdf"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_3_1519530858156",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_4_1519530858156",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_6_1519621398302",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_8_1519621398302",
+			"previous_sibling": "node_7_1519621398302"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_6_1519621398302",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_7_1519621398302",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_2_1519943880522",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_4_1519943931185",
+			"previous_sibling": "node_3_1519943923979"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_2_1519943880522",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_5_1519943937956",
+			"previous_sibling": "node_4_1519943931185"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_2_1519943880522",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_3_1519943923979",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_31_1519619485343",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_33_1519619485344",
+			"previous_sibling": "node_32_1519619485344"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_31_1519619485343",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_33_1519619485344"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_32_1519619485344",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"NOOOO"
+					]
+				}
+			},
+			"parent": "node_11_1519622095416",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_13_1519622095416",
+			"previous_sibling": "node_12_1519622095416"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"NOOOO"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_11_1519622095416",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_12_1519622095416",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-2-response",
+			"output": {},
+			"parent": "node_2_1519778004842",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_7_1519780321304"
+			},
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_1_1519879095083",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_3_1519778127192"
+		},
+		{
+			"type": "standard",
+			"title": "ss-2-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya registraste tu Servicio Social?",
+						"¿Ya te registraste en el Servicio Social?"
+					],
+					"selection_policy": "random"
+				}
+			},
+			"parent": "node_2_1519778004842",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_1_1519879095083"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_3_1519778127192",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_67_1519619631735",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_69_1519619631736",
+			"previous_sibling": "node_68_1519619631736"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_67_1519619631735",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_69_1519619631736"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_68_1519619631736",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pp-1-registro",
+			"output": {},
+			"parent": "node_1_1519838662866",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_2_1519838701161",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-5-no",
+			"output": {},
+			"parent": "node_13_1519619383079",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_15_1519619383081",
+			"previous_sibling": "node_14_1519619383081"
+		},
+		{
+			"type": "standard",
+			"title": "pm-5-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_13_1519619383079",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_15_1519619383081"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_14_1519619383081",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-3-response",
+			"output": {},
+			"parent": "node_6_1519779575903",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_5_1519840942271",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_7_1519780321304"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_6_1519779575903",
+			"context": null,
+			"disabled": true,
+			"metadata": {},
+			"next_step": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_10_1519780657131",
+			"previous_sibling": "node_5_1519840942271"
+		},
+		{
+			"type": "standard",
+			"title": "ss-3-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste el Oficio de Comisión firmado y sellado a la oficina de Servicio Social?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_6_1519779575903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_5_1519840942271"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_7_1519780321304",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_43_1519619534135",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_45_1519619534137",
+			"previous_sibling": "node_44_1519619534137"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_43_1519619534135",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_45_1519619534137"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_44_1519619534137",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-1-response",
+			"output": {},
+			"parent": "node_17_1519784587230",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_3_1519778127192"
+			},
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_21_1519785004584",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_1_1519840207221"
+		},
+		{
+			"type": "standard",
+			"title": "ss-1-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya cuentas con el 60% de tus créditos?",
+						"¿Ya tienes el 60% de tus créditos?"
+					],
+					"selection_policy": "random"
+				}
+			},
+			"parent": "node_17_1519784587230",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_21_1519785004584"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_1_1519840207221",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_33_1519619485344",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_35_1519619485344",
+			"previous_sibling": "node_34_1519619485344"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_33_1519619485344",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_36_1519619485344",
+			"previous_sibling": "node_35_1519619485344"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_33_1519619485344",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_34_1519619485344",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-1-yes",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519503716304",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": false
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_7_1519612389617",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_2_1519515015584"
+		},
+		{
+			"type": "standard",
+			"title": "pm-1-no",
+			"output": {},
+			"parent": "node_1_1519503716304",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones:no || $question",
+			"description": null,
+			"dialog_node": "node_2_1519515015584",
+			"digress_out": "allow_all",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_27_1519619462459",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_30_1519619462459",
+			"previous_sibling": "node_29_1519619462459"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_27_1519619462459",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_29_1519619462459",
+			"previous_sibling": "node_28_1519619462459"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_27_1519619462459",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_28_1519619462459",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_10_1519921795801",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_6_1519921178238"
+			},
+			"conditions": "#fecha_final",
+			"description": null,
+			"dialog_node": "node_12_1519921927443",
+			"previous_sibling": "node_11_1519921885428"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_10_1519921795801",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_2_1519920355260"
+			},
+			"conditions": "#fecha_inicio",
+			"description": null,
+			"dialog_node": "node_11_1519921885428",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_8_1519880576911",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_10_1519880629176",
+			"previous_sibling": "node_9_1519880600017"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_8_1519880576911",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_11_1519880636597",
+			"previous_sibling": "node_10_1519880629176"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_8_1519880576911",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_9_1519880600017",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Es necesario que cuentes con el 60% de tus créditos para poder hacer tu registro"
+					]
+				}
+			},
+			"parent": "node_21_1519785004584",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_4_1519840419786",
+			"previous_sibling": "node_9_1519842699883"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_21_1519785004584",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_9_1519842699883",
+			"previous_sibling": "node_3_1519840412964"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Es necesario que cuentes con el 60% de tus créditos para poder hacer tu registro"
+					]
+				}
+			},
+			"parent": "node_21_1519785004584",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_3_1519840412964",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_69_1519619631736",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_71_1519619631736",
+			"previous_sibling": "node_70_1519619631736"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_69_1519619631736",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_72_1519619631736",
+			"previous_sibling": "node_71_1519619631736"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_69_1519619631736",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_70_1519619631736",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_37_1519619505473",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_39_1519619505475",
+			"previous_sibling": "node_38_1519619505475"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_37_1519619505473",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_39_1519619505475"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_38_1519619505475",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Antes de poder generar tu reporte bimestral correctamente, tienes que entregar tu Oficio de Comisión al Servicio Social"
+					]
+				}
+			},
+			"parent": "node_5_1519840942271",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_8_1519840987279",
+			"previous_sibling": "node_7_1519840981713"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"¡Excelente! Consulta esta guía para la elaboración de tus reportes bimestrales http://www.cucei.udg.mx/sites/default/files/pdf/reportes_bimestrales_2012a_-_2015b.pdf"
+					]
+				}
+			},
+			"parent": "node_5_1519840942271",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_7_1519840981713",
+			"previous_sibling": "node_6_1519840972789"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Antes de poder generar tu reporte bimestral correctamente, tienes que entregar tu Oficio de Comisión al Servicio Social"
+					]
+				}
+			},
+			"parent": "node_5_1519840942271",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_6_1519840972789",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-1-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya registraste tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_10_1518668476738",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_1_1519503716304",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-5-response",
+			"output": {},
+			"parent": "node_25_1519791343162",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_8_1519880576911",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_6_1519880537596"
+		},
+		{
+			"type": "standard",
+			"title": "ss-5-path",
+			"output": {},
+			"parent": "node_25_1519791343162",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_6_1519880537596",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_13_1519922053161",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_7_1519921240437"
+			},
+			"conditions": "#fecha_final",
+			"description": null,
+			"dialog_node": "node_15_1519922132750",
+			"previous_sibling": "node_14_1519922105895"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_13_1519922053161",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_3_1519920528911"
+			},
+			"conditions": "#fecha_inicio",
+			"description": null,
+			"dialog_node": "node_14_1519922105895",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-7-no",
+			"output": {},
+			"parent": "node_25_1519619462458",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_27_1519619462459",
+			"previous_sibling": "node_26_1519619462459"
+		},
+		{
+			"type": "standard",
+			"title": "pm-7-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_25_1519619462458",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_27_1519619462459"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_26_1519619462459",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-3-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_9_1519622095415",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_10_1519622095416",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_9_1519619364099",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_11_1519619364099",
+			"previous_sibling": "node_10_1519619364099"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_9_1519619364099",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_12_1519619364099",
+			"previous_sibling": "node_11_1519619364099"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_9_1519619364099",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_10_1519619364099",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_73_1519619670200",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_75_1519619670202",
+			"previous_sibling": "node_74_1519619670202"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_73_1519619670200",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_75_1519619670202"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_74_1519619670202",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "pm-4-no",
+			"output": {},
+			"parent": "node_7_1519619364099",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_9_1519619364099",
+			"previous_sibling": "node_8_1519619364099"
+		},
+		{
+			"type": "standard",
+			"title": "pm-4-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_7_1519619364099",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_9_1519619364099"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_8_1519619364099",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_15_1519619383081",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_18_1519619383081",
+			"previous_sibling": "node_17_1519619383081"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_15_1519619383081",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_17_1519619383081",
+			"previous_sibling": "node_16_1519619383081"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_15_1519619383081",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_16_1519619383081",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_24_1519922771759",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_7_1519921240437"
+			},
+			"conditions": "@ciclo:(ciclo B)",
+			"description": null,
+			"dialog_node": "node_26_1519922892850",
+			"previous_sibling": "node_25_1519922839101"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_24_1519922771759",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_8_1519921284270"
+			},
+			"conditions": "@ciclo:(ciclo de verano)",
+			"description": null,
+			"dialog_node": "node_27_1519922941416",
+			"previous_sibling": "node_26_1519922892850"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {},
+			"parent": "node_24_1519922771759",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_6_1519921178238"
+			},
+			"conditions": "@ciclo:(ciclo A)",
+			"description": null,
+			"dialog_node": "node_25_1519922839101",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Haz tu registro en: http://ss.siiau.udg.mx/"
+					]
+				}
+			},
+			"parent": "node_1_1519879095083",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_5_1519879327964",
+			"previous_sibling": "node_3_1519879307092"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_1_1519879095083",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_3_1519879307092",
+			"previous_sibling": "node_4_1519879316509"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Regístrate en: http://ss.siiau.udg.mx/"
+					]
+				}
+			},
+			"parent": "node_1_1519879095083",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_4_1519879316509",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_51_1519619557567",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_53_1519619557567",
+			"previous_sibling": "node_52_1519619557567"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_51_1519619557567",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_54_1519619557567",
+			"previous_sibling": "node_53_1519619557567"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_51_1519619557567",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_52_1519619557567",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-4-response",
+			"output": {},
+			"parent": "node_16_1519783804615",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_2_1519943880522",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_22_1519791273354"
+		},
+		{
+			"type": "standard",
+			"title": "ss-4-path",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya cuentas con tus 480 horas?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_16_1519783804615",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_2_1519943880522"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_22_1519791273354",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "Respuesta",
+			"output": {},
+			"parent": "node_79_1519619694449",
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": true
+				}
+			},
+			"next_step": null,
+			"conditions": "@opciones || $question",
+			"description": null,
+			"dialog_node": "node_81_1519619694449",
+			"previous_sibling": "node_80_1519619694449"
+		},
+		{
+			"type": "standard",
+			"title": "Recorrido",
+			"output": {
+				"text": {
+					"values": [
+						"¿Ya entregaste a coordinación el Formato de Registro de tu Proyecto Modular?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_79_1519619694449",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "user_input",
+				"dialog_node": "node_81_1519619694449"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_80_1519619694449",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ss-3-reporteBimestral",
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_1_1519777966024",
+			"context": {
+				"question": true
+			},
+			"metadata": {
+				"_customization": {
+					"mcr": false
+				}
+			},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519840942271"
+			},
+			"conditions": "#ss-registro-reporteBimestral",
+			"description": null,
+			"dialog_node": "node_6_1519779575903",
+			"digress_out": "allow_all",
+			"previous_sibling": "node_2_1519778004842"
+		},
+		{
+			"type": "standard",
+			"title": "ss-4-reporteFinal",
+			"output": {},
+			"parent": "node_1_1519777966024",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_2_1519943880522"
+			},
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_16_1519783804615",
+			"previous_sibling": "node_6_1519779575903"
+		},
+		{
+			"type": "standard",
+			"title": "ss-2-registro",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519777966024",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_1_1519879095083"
+			},
+			"conditions": "#all-registro",
+			"description": null,
+			"dialog_node": "node_2_1519778004842",
+			"previous_sibling": "node_17_1519784587230"
+		},
+		{
+			"type": "standard",
+			"title": "ss-iniciarRecorrido",
+			"output": {},
+			"parent": "node_1_1519777966024",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_1_1519840207221"
+			},
+			"conditions": "@areas:(Servicio Social)",
+			"description": null,
+			"dialog_node": "node_15_1519783626354",
+			"previous_sibling": "node_25_1519791343162"
+		},
+		{
+			"type": "standard",
+			"title": "ss-5-liberacion",
+			"output": {},
+			"parent": "node_1_1519777966024",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "#ss-liberacionServicio",
+			"description": null,
+			"dialog_node": "node_25_1519791343162",
+			"previous_sibling": "node_16_1519783804615"
+		},
+		{
+			"type": "standard",
+			"title": "ss-1-requisitoRegistro",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519777966024",
+			"context": {
+				"question": true
+			},
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_21_1519785004584"
+			},
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_17_1519784587230",
+			"previous_sibling": null
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": []
+				}
+			},
+			"parent": "node_39_1519619505475",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:si",
+			"description": null,
+			"dialog_node": "node_41_1519619505475",
+			"previous_sibling": "node_40_1519619505475"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					]
+				}
+			},
+			"parent": "node_39_1519619505475",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "$question",
+			"description": null,
+			"dialog_node": "node_42_1519619505475",
+			"previous_sibling": "node_41_1519619505475"
+		},
+		{
+			"type": "response_condition",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Puedes registrarlo aquí: https://docs.google.com/forms/d/1LSzyFiL9V39z8mdU54TrKT5NkrZfius_DDUHRjSxtn8/viewform?edit_requested=true"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_39_1519619505475",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@opciones:no",
+			"description": null,
+			"dialog_node": "node_40_1519619505475",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Fin de Cursos ciclo A y Fecha Límite Para Registro y Publicación de Evaluación Continua en Periodo Ordinario Viernes 25 de mayo de 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_final && @ciclo:(ciclo A)",
+			"description": null,
+			"dialog_node": "node_6_1519921178238",
+			"previous_sibling": "node_4_1519920642185"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Tengo fechas de inicio de cursos pero para qué ciclo la necesitas? ciclo A, ciclo de verano o ciclo B?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "#fecha_inicio",
+			"description": null,
+			"dialog_node": "node_20_1519922461265",
+			"previous_sibling": "node_16_1519922197569"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Final de qué ciclo? tengo fechas de final de ciclos, como el ciclo A, ciclo B o ciclo de verano, cuál necesitas?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "#fecha_final",
+			"description": null,
+			"dialog_node": "node_24_1519922771759",
+			"previous_sibling": "node_20_1519922461265"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"El Inicio de Ciclo de verano es el día Martes 05 de junio de 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_inicio && @ciclo:(ciclo de verano)",
+			"description": null,
+			"dialog_node": "node_4_1519920642185",
+			"previous_sibling": "node_3_1519920528911"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Fin de Cursos ciclo B y Fecha Límite Para Registro y Publicación de Evaluación Continua en Periodo Ordinario el día Viernes 7 de diciembre de 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_final && @ciclo:(ciclo B)",
+			"description": null,
+			"dialog_node": "node_7_1519921240437",
+			"previous_sibling": "node_6_1519921178238"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Del ciclo B tengo fechas de inicio y final de cursos, cuál necesitas?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@ciclo:(ciclo B)",
+			"description": null,
+			"dialog_node": "node_13_1519922053161",
+			"previous_sibling": "node_10_1519921795801"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Fin de Ciclo de verano y cierre de registro de calificaciones es el Miércoles 25 de julio de 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_final && @ciclo:(ciclo de verano)",
+			"description": null,
+			"dialog_node": "node_8_1519921284270",
+			"previous_sibling": "node_7_1519921240437"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Del ciclo A tengo fechas de inicio y final de cursos, cuál necesitas?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@ciclo:(ciclo A)",
+			"description": null,
+			"dialog_node": "node_10_1519921795801",
+			"previous_sibling": "node_8_1519921284270"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"Del ciclo de verano tengo fechas de inicio y final de cursos, cuál necesitas?"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@ciclo:(ciclo de verano)",
+			"description": null,
+			"dialog_node": "node_16_1519922197569",
+			"previous_sibling": "node_13_1519922053161"
+		},
+		{
+			"type": "standard",
+			"title": "Salir de ciclo",
+			"output": {
+				"text": {
+					"values": [
+						"Necesitas alguna otra fecha? escribe sí o no"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_5_1519921108820",
+			"previous_sibling": "node_24_1519922771759"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"El inicio de cursos en el @ciclo es el lunes 13 de agosto de 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_inicio && @ciclo:(ciclo B)",
+			"description": null,
+			"dialog_node": "node_3_1519920528911",
+			"previous_sibling": "node_2_1519920355260"
+		},
+		{
+			"type": "standard",
+			"title": null,
+			"output": {
+				"text": {
+					"values": [
+						"El inicio de cursos en el @ciclo es el martes 16 de enero del 2018"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1519918628903",
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_5_1519921108820"
+			},
+			"conditions": "#fecha_inicio && @ciclo:(ciclo A)",
+			"description": null,
+			"dialog_node": "node_2_1519920355260",
+			"previous_sibling": null
+		},
+		{
+			"type": "standard",
+			"title": "ProyectoModular",
+			"output": {},
+			"parent": null,
+			"context": null,
+			"metadata": {
+				"_customization": {
+					"mcr": false
+				}
+			},
+			"next_step": {
+				"behavior": "skip_user_input"
+			},
+			"conditions": "@areas:(Proyectos Modulares)",
+			"digress_in": "does_not_return",
+			"description": null,
+			"dialog_node": "node_1_1518666227122",
+			"digress_out": "allow_all",
+			"previous_sibling": "Bienvenido"
+		},
+		{
+			"type": "standard",
+			"title": "ServicioSocial",
+			"output": {},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "skip_user_input"
+			},
+			"conditions": "@areas:(Servicio Social)",
+			"digress_in": "does_not_return",
+			"description": null,
+			"dialog_node": "node_1_1519777966024",
+			"previous_sibling": "node_1_1518666227122"
+		},
+		{
+			"type": "standard",
+			"title": "FechasInicio/FinalizaciónDeCiclo",
+			"output": {
+				"text": {
+					"values": [
+						"Puedes preguntarme acerca de las fechas de inicialización o finalización de los diferentes ciclos, ejemplo, cuándo inicia el ciclo A, cuándo finaliza el ciclo de verano? recuerda especificar el calendario, A, B o de verano."
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@areas:(Fechas de ciclo)",
+			"digress_in": "does_not_return",
+			"description": null,
+			"dialog_node": "node_1_1519918628903",
+			"previous_sibling": "node_1_1519838662866"
+		},
+		{
+			"type": "standard",
+			"title": "En otras cosas",
+			"output": {
+				"text": {
+					"values": [],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": {
+				"behavior": "jump_to",
+				"selector": "body",
+				"dialog_node": "node_6_1518671760107"
+			},
+			"conditions": "anything_else",
+			"description": null,
+			"dialog_node": "En otras cosas",
+			"previous_sibling": "node_6_1518671760107"
+		},
+		{
+			"type": "standard",
+			"title": "PracticasProfesionales",
+			"output": {},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@areas:(Prácticas Profesionales)",
+			"description": null,
+			"dialog_node": "node_1_1519838662866",
+			"previous_sibling": "node_1_1519777966024"
+		},
+		{
+			"type": "standard",
+			"title": "Help",
+			"output": {
+				"text": {
+					"values": [
+						"Mis temas de dominio son: <? $areas.join(', ') ?>",
+						"Me puedes preguntar acerca de: <? $areas.join(', ') ?>"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "#conocimiento-del-bot",
+			"digress_in": "does_not_return",
+			"description": null,
+			"dialog_node": "node_6_1518671760107",
+			"previous_sibling": "node_29_1519923878834"
+		},
+		{
+			"type": "standard",
+			"title": "Malla curricular",
+			"output": {
+				"text": {
+					"values": [
+						"La malla curricular y las materias recomendadas en la carrera ordenadas por semestre las puedes encontrar en la siguiente imagen http://www.cucei.udg.mx/carreras/informatica/es/malla-curricular-inni"
+					],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"metadata": {},
+			"next_step": null,
+			"conditions": "@areas:(Malla Curricular)",
+			"description": null,
+			"dialog_node": "node_29_1519923878834",
+			"previous_sibling": "node_1_1519918628903"
+		},
+		{
+			"type": "standard",
+			"title": "Bienvenido",
+			"output": {
+				"text": {
+					"values": [
+						"Bienvenido estudiante. Puedes preguntarme sobre: <? $areas.join(', ') ?>",
+						"Bienvenido estudiante, Tengo dominio sobre: <? $areas.join(', ') ?>",
+						"Hola estudiante, Puedo responderte sobre: <? $areas.join(', ') ?>"
+					],
+					"selection_policy": "random"
+				}
+			},
+			"parent": null,
+			"context": {
+				"areas": [
+					"Calendario Oficial",
+					"Malla Curricular",
+					"Prácticas Profesionales",
+					"Servicio Social",
+					"Proyectos Modulares",
+					"Materias Optativas",
+					"Materias Especializantes",
+					"Titulación",
+					"Fechas de inicio/finalización de ciclo"
+				]
+			},
+			"metadata": {},
+			"next_step": null,
+			"conditions": "welcome",
+			"description": null,
+			"dialog_node": "Bienvenido",
+			"previous_sibling": null
+		}
+	],
+	"workspace_id": "0f55c9a2-da78-48d5-a69c-8922e4025126",
+	"counterexamples": [
+		{
+			"text": "Proyectos Modulares"
+		}
+	],
+	"learning_opt_out": false
+}
