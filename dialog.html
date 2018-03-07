@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var availableTags = [];
+    var savedData = [];
+    var wantToKnowTag = [];
+    // Getting data from web
+    $.get("https://infoman-backend.mybluemix.net/conversation/dialog", function(res) {
+      for (var i = 0; i < res.length; i++) {
+        // Saving used keys in array
+        availableTags.push(Object.keys(res[i]));
+        savedData.push(res[i]);
+      }
+      // Console for print all availableTags
+      // console.log(availableTags);
+      for (var j = 0; j < savedData.length; j++) {
+        // console.log(savedData[j].title);
+        wantToKnowTag.push(savedData[j].title + "\n");
+      }
+
+      // Set value into textarea 
+      $("#info").val(wantToKnowTag);
+    });
+  });
+  </script>
+</head>
+<body>
+  <textarea id="info" name="info" rows="8" cols="80"></textarea>
+</body>
+</html>
