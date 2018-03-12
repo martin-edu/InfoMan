@@ -48,6 +48,7 @@ var functions = (function() {
 
   var getQuestions = function() {
     return new Promise(function(fulfill, reject) {
+      console.log(params);
       conversation.listIntents(params, function(err, response) {
         if (err) {
           reject(404);
@@ -64,11 +65,44 @@ var functions = (function() {
     });
   }
 
+  var updateContextVariable = function(dialogNode, contextVariable) {
+    return new Promise(function(fulfill, reject) {
+      params.dialog_node = dialogNode;
+      params.new_dialog_node = dialogNode;
+      params.new_context = contextVariable;
+      conversation.updateDialogNode(params, function(err, response) {
+        if (err) {
+          reject(404);
+        } else {
+          fulfill(response);
+        }
+      });
+      delete params.dialog_node;
+      delete params.new_dialog_node;
+      delete params.new_context;
+    });
+  }
+
+  var getDialogNode = function(dialogNode) {
+    return new Promise(function(fulfill, reject) {
+      params.dialog_node = dialogNode;
+      conversation.getDialogNode(params, function(err, response) {
+        if (err) {
+          reject(404);
+        } else {
+          fulfill(response.context);
+        }
+      });
+      delete params.dialog_node;
+    });
+  }
+
   return {
     'getIntents': getIntents,
     'getEntities': getEntities,
     'getDialog': getDialog,
-    'getQuestions': getQuestions
+    'getQuestions': getQuestions,
+    'updateContextVariable': updateContextVariable
   };
 
 })();
