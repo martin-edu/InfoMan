@@ -8,6 +8,16 @@ const params = {
   workspace_id: process.env.CONVERSATION_WORKSPACE_ID,
   export: true,
   include_count: true};
+const map = {
+  "Proyectos Modulares": "pm",
+  "Servicio Social": "ss",
+  "Calendario Oficial": "co",
+  "Malla Curricular": "ma",
+  "Prácticas Profesionales": "pp",
+  "Materias Optativas": "mo",
+  "Materias Especializantes": "me",
+  "Titulación": "t"
+}
 
 var functions = (function() {
   var getIntents = function() {
@@ -46,9 +56,22 @@ var functions = (function() {
     });
   }
 
+  var getDialogNode = function(dialogNode) {
+    return new Promise(function(fulfill, reject) {
+      params.dialog_node = dialogNode;
+      conversation.getDialogNode(params, function(err, response) {
+        if (err) {
+          reject(404);
+        } else {
+          fulfill(response);
+        }
+      });
+      delete params.dialog_node;
+    });
+  }
+
   var getQuestions = function() {
     return new Promise(function(fulfill, reject) {
-      console.log(params);
       conversation.listIntents(params, function(err, response) {
         if (err) {
           reject(404);
@@ -83,26 +106,63 @@ var functions = (function() {
     });
   }
 
-  var getDialogNode = function(dialogNode) {
+  var getForm = function(availableAreas) {
     return new Promise(function(fulfill, reject) {
-      params.dialog_node = dialogNode;
-      conversation.getDialogNode(params, function(err, response) {
+      conversation.listDialogNodes(params, function(err, response) {
         if (err) {
           reject(404);
         } else {
-          fulfill(response.context);
+          let format = [];
+          for(i in availableAreas){
+            for(j in response.dialog_nodes){
+              if(availableAreas[i] === response.dialog_nodes[j].title){
+                let variables = [];
+                let temp_json = response.dialog_nodes[j].context[map[response.dialog_nodes[j].title]];
+                for(x in temp_json){
+                  variables.push({
+                    'field': x,
+                    'currentValue': temp_json[x]
+                  });
+                }
+                format.push({
+                  'area': response.dialog_nodes[j].title,
+                  'variables': variables
+                });
+              }
+          }
+        }
+        fulfill(format);
         }
       });
-      delete params.dialog_node;
     });
   }
+
+  var askWatson = function(question){
+    return new Promise(function(fulfill,reject){
+      conversation.message({
+        workspace_id: params.workspace_id,
+        alternate_intents: true,
+        input: { 'text': question.text },
+
+      }, function(err, response) {
+        if (err) {
+          reject(err);
+        } else {
+          fulfill(response.output.text);
+        }
+      });
+    });
+  };
 
   return {
     'getIntents': getIntents,
     'getEntities': getEntities,
     'getDialog': getDialog,
+    'getDialogNode': getDialogNode,
     'getQuestions': getQuestions,
-    'updateContextVariable': updateContextVariable
+    'getForm': getForm,
+    'updateContextVariable': updateContextVariable,
+    'askWatson': askWatson
   };
 
 })();
