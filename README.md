@@ -5,3 +5,4 @@
 ### https://infoman-backend.mybluemix.net/conversation/dialog
 ### https://infoman-backend.mybluemix.net/conversation/questions
 ### https://infoman-backend.mybluemix.net/conversation/form
+### https://infoman-backend.mybluemix.net/conversation/askWatson
