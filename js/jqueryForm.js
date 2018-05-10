@@ -25,7 +25,7 @@ $(document).ready(function () {
                     'value="' + indexAreas + '">Enviar Cambios</button>');
             }
             $(".btn.btn-primary").click(function () {
-                alert($(this).attr('value'));
+                //alert($(this).attr('value'));
                 sendJson($(this).attr('value'));
             });
 
@@ -60,7 +60,8 @@ function sendJson(number) {
     //alert(packageArea.variables);
     $.ajax({
         type: "PUT",
-        dataType: "application/json",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
         data: JSON.stringify(packageArea),
         url: "https://infoman-backend.mybluemix.net/conversation/update",
         success: function(){
