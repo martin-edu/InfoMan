@@ -5,59 +5,110 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Form</title>
+    <link rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/css.css">
-        <script src="js/jqueryForm.js"></script>
-    
+    <script src="js/jquerySections.js"></script>
+
 </head>
 
 <body>
-    <div class="container" id="sections">
+    <div class="container">
         <div class="row">
             <div class="col-xl-12 my-5">
                 <nav class="navbar navbar-dark bg-dark">
                     <!-- Navbar content -->
                     <div class="navbar-brand">Alimentador del bot</div>
+                    <button type="button" class="btn btn-warning">Coordinación de ingeniería en informática, CUCEI, UDG.</button>
                     <img src="img/udg.png" width="30" height="40" alt="">
+
                 </nav>
             </div>
 
             <div class="col-xl-12">
                 <ul class="nav nav-tabs" id="tabsGroup">
                     <li class="nav-item">
-                        <a class="nav-link active" id="COtab" href="#">Calendario oficial</a>
+                        <a class="nav-link" id="0" href="#">Calendario oficial</a>
                     </li>
                     <li class="nav-item">
-                        
-                        <a class="nav-link" id="MCtab" href="#">Malla curricular</a>
+                        <a class="nav-link" id="1" href="#">Malla curricular</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="PPtab" href="#">Prácticas profesionales</a>
+                        <a class="nav-link" id="2" href="#">Prácticas profesionales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="SStab" href="#">Servicio social</a>
+                        <a class="nav-link" id="3" href="#">Servicio social</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="PMtab" href="#">Proyectos modulares</a>
+                        <a class="nav-link" id="4" href="#">Proyectos modulares</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="MOEtab" href="#">Optativas & especializantes</a>
+                        <a class="nav-link" id="5" href="#">Optativas & especializantes</a>
                     </li>
                 </ul>
             </div>
         </div>
-        
+        <div id="sections"></div>
+        <div class="col-sm-12 my-2 alert alert-success" id="alert" role="alert">Bien hecho, se ha actualizado la información.</div>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" style="display:scroll;position:fixed;top: 70%;left: 93%;font-size: 17px;">
+            Ayuda
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Form de actualización</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info" role="alert">
+                            Para actualizar las variables del chatBot siga los siguientes pasos:
+                            <br>
+                            <ul>
+                                <li>
+                                    Escoja un tab a actualizar y espere a la descarga de información.
+                                </li>
+                                <li>
+                                    Actualice los campos que necesite.
+                                </li>
+                                <li>
+                                    Presione el boton Enviar cambios.
+                                </li>
+                            </ul>
+                            Un mensaje de confirmación de éxito aparecerá en la pantalla.
+
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            ¡Una vez actualizada la información no hay manera de recuperar la anterior desde este form!.
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
+
+
+
 </body>
 
 </html>
